@@ -37,9 +37,15 @@
       <main>
         <h1>Welcome to Kaileen's CSD120 Website!</h1>
         <a href="images/myface.jpeg">
-          <img src="images/myface.jpeg" alt="A picture of my face"
+          <img
+            src="images/myface.jpeg"
+            alt="A picture of my face"
             sizes="(max-width:500px) 150px, 300px"
-            srcset="images/myface-thumb150.jpeg 150w, images/myface-thumb300.jpeg 300w">
+            srcset="
+              images/myface-thumb150.jpeg 150w,
+              images/myface-thumb300.jpeg 300w
+            "
+          />
         </a>
         <p>
           Hi my name is Kaileen! I am new to coding, but excited to learn and
@@ -79,20 +85,32 @@
           </cite>
         </p>
         <h3>Public Domain Audiobook</h3>
-        <p>Below is an audio recording of chapter 1 of Mark Twain's Adventures of Huckleberry Finn.</p>
+        <p>
+          Below is an audio recording of chapter 1 of Mark Twain's Adventures of
+          Huckleberry Finn.
+        </p>
         <audio controls>
-            <source src="https://ia600203.us.archive.org/12/items/huckleberry_finn_0908_librivox/finn_01_twain_64kb.mp3" type="audio/mp3">
-            <p>Your browser doesn't support mp3 audio. Here is a <a hrf="https://ia600203.us.archive.org/12/items/huckleberry_finn_0908_librivox/finn_01_twain_64kb.mp3">link to the audio</a>instead.</p>
+          <source
+            src="https://ia600203.us.archive.org/12/items/huckleberry_finn_0908_librivox/finn_01_twain_64kb.mp3"
+            type="audio/mp3"
+          />
+          <p>
+            Your browser doesn't support mp3 audio. Here is a
+            <a
+              href="https://ia600203.us.archive.org/12/items/huckleberry_finn_0908_librivox/finn_01_twain_64kb.mp3"
+              >link to the audio</a
+            >instead.
+          </p>
         </audio>
         <h3>YouTube Video</h3>
-        <iframe 
-          width="560" height="315" 
-          src="https://www.youtube.com/embed/NUKKzdVy0EI" 
-          frameborder="0" 
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+        <iframe
+          width="560"
+          height="315"
+          src="https://www.youtube.com/embed/NUKKzdVy0EI"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
           allowfullscreen
-          sandbox="allow-forms allow-scripts allow-same-origin">
-          <p>iframe is not supported in your browser. Here is a <a href="https://www.youtube.com/embed/NUKKzdVy0EI">link to the video</a> instead.</a></p>
+          title="YouTube video of a campfire."
+        >
         </iframe>
       </main>
       <footer>
@@ -112,10 +130,21 @@
           >
         </p>
         <picture>
-          <source type="image/svg+xml" srcset="images/sc-logo.svg" media="(max-width: 70px)">
-          <img 
-            src="images/sc-logo-70w.png" width="70" alt="The Sault College logo."
-            srcset="images/sc-logo-70w.png, images/sc-logo-105w.png 1.5x, images/sc-logo-140w.png 2x">
+          <source
+            type="image/svg+xml"
+            srcset="images/sc-logo.svg 640w"
+            sizes="70px"
+          />
+          <img
+            src="images/sc-logo-70w.png"
+            width="70"
+            alt="The Sault College logo."
+            srcset="
+              images/sc-logo-70w.png,
+              images/sc-logo-105w.png 1.5x,
+              images/sc-logo-140w.png 2x
+            "
+          />
         </picture>
       </footer>
       <a href="#top" title="Back to top">◤</a>
