@@ -58,8 +58,8 @@
               src="images/logo.jpeg"
               alt="The Toronto Blue Jays logo that links to the official MLB Blue Jays website."
             />
-            <figcaption>The Toronto Blue Jays logo.</figcaption>
           </a>
+          <figcaption>The Toronto Blue Jays logo.</figcaption>
         </figure>
         <h3>Cheese</h3>
         <ol>
@@ -95,9 +95,12 @@
             >Kaileen Trudel</a
           >
         </p>
-        <img 
-          src="images/sc-logo-70w.png" width="70" alt="The Sault College logo."
-          srcset="images/sc-logo-70w.png, images/sc-logo-105w.png 1.5x, images/sc-logo-140w.png 2x">
+        <picture>
+          <source type="image/svg+xml" srcset="images/sc-logo.svg" media="(max-width: 70px)">
+          <img 
+            src="images/sc-logo-70w.png" width="70" alt="The Sault College logo."
+            srcset="images/sc-logo-70w.png, images/sc-logo-105w.png 1.5x, images/sc-logo-140w.png 2x">
+        </picture>
       </footer>
       <a href="#top" title="Back to top">◤</a>
     </div>
