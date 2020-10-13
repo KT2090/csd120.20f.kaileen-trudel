@@ -37,65 +37,94 @@
       <main>
         <h1>Survey</h1>
         <form action="https://formspree.io/f/mpzopwne" method="POST">
-            <p>
-                <label for="user_name">What is your name? 
-                    <abbr title="required" aria-label="required">*</abbr>
-                </label>
-                <input id="user_name" type="text" name="name_field" required>
-            </p>
-            <p>
-                <label for="user_email">What is your email?
-                    <abbr title="required" aria-label="required">*</abbr>
-                </label>
-                <input id="user_email" type="email" name="email_field" required>
-            </p>
-            <p>
-                <label for="best_number">Which whole number is best?
-                </label>
-                <input id="best_number" type="number" name= "best_whole_number" min="0">
-            </p>
-            <p>
-                <label for="best_date">Which day is best?</label>
-                <input id="best_date" type="date" name="best_day">
-            </p>
-            <p>
-                <label for="best_bear">Which bear is best?
-                    <abbr title="required" aria-label="required">*</abbr>
-                </label>
-                <select id="best_bear" name="best_bear_type" required>
-                    <option label="blank"> </option>
-                    <option>Black</option>
-                    <option>Brown</option>
-                    <option>Care</option>
-                    <option>Panda</option>
-                    <option>Polar</option>
-                    <option>Teddy</option>
-                </select>
-            </p>
-            <fieldset>
-                <legend>Do you like radio buttons?</legend>
-                <ul>
-                    <li>
-                        <label for="yes_button">Yes</label>
-                        <input id="yes_button" type="radio" name="like_button" value="yes">
-                    </li>
-                    <li>
-                        <label for="no_button">No</label>
-                        <input id="no_button" type="radio" name="like_button" value="no">
-                    </li>
-                    <li>
-                        <label for="maybe_button">None of your business</label>
-                        <input id="maybe_button" type="radio" name="like_button" value="?" checked>
-                    </li>
-                </ul>
-            </fieldset>
-            <p>
-                <label for="whatislife">What is the meaning of life?</label>
-                <textarea id="whatislife" name="life_meaning" cols="50" rows="5" placeholder="Enter the correct answer here"></textarea>
-            </p>
-            <p>
-                <button>Send</button>
-            </p>
+          <p>
+            <label for="user_name"
+              >What is your name?
+              <abbr title="required" aria-label="required">*</abbr>
+            </label>
+            <input id="user_name" type="text" name="name_field" required />
+          </p>
+          <p>
+            <label for="user_email"
+              >What is your email?
+              <abbr title="required" aria-label="required">*</abbr>
+            </label>
+            <input id="user_email" type="email" name="email_field" required />
+          </p>
+          <p>
+            <label for="best_number">Which whole number is best? </label>
+            <input
+              id="best_number"
+              type="number"
+              name="best_whole_number"
+              min="0"
+            />
+          </p>
+          <p>
+            <label for="best_date">Which day is best?</label>
+            <input id="best_date" type="date" name="best_day" />
+          </p>
+          <p>
+            <label for="best_bear"
+              >Which bear is best?
+              <abbr title="required" aria-label="required">*</abbr>
+            </label>
+            <select id="best_bear" name="best_bear_type" required>
+              <option label="blank"></option>
+              <option>Black</option>
+              <option>Brown</option>
+              <option>Care</option>
+              <option>Panda</option>
+              <option>Polar</option>
+              <option>Teddy</option>
+            </select>
+          </p>
+          <fieldset>
+            <legend>Do you like radio buttons?</legend>
+            <ul>
+              <li>
+                <label for="yes_button">Yes</label>
+                <input
+                  id="yes_button"
+                  type="radio"
+                  name="like_button"
+                  value="yes"
+                />
+              </li>
+              <li>
+                <label for="no_button">No</label>
+                <input
+                  id="no_button"
+                  type="radio"
+                  name="like_button"
+                  value="no"
+                />
+              </li>
+              <li>
+                <label for="maybe_button">None of your business</label>
+                <input
+                  id="maybe_button"
+                  type="radio"
+                  name="like_button"
+                  value="?"
+                  checked
+                />
+              </li>
+            </ul>
+          </fieldset>
+          <p>
+            <label for="whatislife">What is the meaning of life?</label>
+            <textarea
+              id="whatislife"
+              name="life_meaning"
+              cols="50"
+              rows="5"
+              placeholder="Enter the correct answer here"
+            ></textarea>
+          </p>
+          <p>
+            <button>Send</button>
+          </p>
         </form>
       </main>
       <footer>
