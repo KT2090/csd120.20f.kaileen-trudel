@@ -17,6 +17,7 @@ html {
     border: 1px solid rgba(0, 0, 0, 0.3);
     border-top: none;
     margin-bottom: 3em;
+    background-color: #cee4ee;
 }
 
 /* Styling for horizontal rule in footer */
@@ -26,10 +27,36 @@ footer hr {
     max-width: 890px;
     margin-top: 3em;
     margin-bottom: 2em;
-    border-bottom: 3px dotted steelblue;
+    border: none;
+    border-bottom: 3px dotted #1e2958;
 }
 
 /* Add colons to terms in a definition list */
 dl dt::after {
     content: ":";
+}
+
+/* sets background colour */
+body {
+    background-color: #581e46;
+}
+
+/* sets new default colours for text, headings and hyperlinks */
+p,
+h1,
+h2,
+h3 {
+    color: #3b3b3b;
+}
+
+a {
+    color: #1e2958;
+}
+
+header nav a {
+    color: #46581e;
+}
+
+::selection {
+    background-color: #84bbd4
 }
