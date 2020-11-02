@@ -28,7 +28,7 @@ footer hr {
     margin-top: 3em;
     margin-bottom: 2em;
     border: none;
-    border-bottom: 3px dotted #1e2958;
+    border-bottom: 3px dotted #0e0e45;
 }
 
 /* Add colons to terms in a definition list */
@@ -46,17 +46,49 @@ p,
 h1,
 h2,
 h3 {
-    color: #3b3b3b;
+    color: #3b3b3b
 }
 
 a {
-    color: #1e2958;
+    color: #0e0e45;
 }
 
 header nav a {
-    color: #46581e;
+    color: #005500;
+    border-top: 4px solid #00550000;
+    display: inline-block;
+    padding-top: 1em;
+    padding-bottom: 0.5em;
 }
+
+header nav a:hover {
+    border-top: 4px solid #005500;
+} 
 
 ::selection {
     background-color: #84bbd4
+}
+
+/* styling the site header */
+header {
+    border-top: 4px solid rgba(0, 0, 0, 0.1);
+    margin-left: -2em;
+    margin-right: -2em;
+}
+
+header nav {
+    border-bottom: 1px dotted rgba(0, 0, 0, 0.3);
+    margin-left: 2em;
+    margin-right: 2em;
+}
+
+header nav ul {
+    margin: 0;
+    padding: 0;
+}
+
+header li {
+    display: inline;
+    padding-right: 1em;
+    padding-left: 1em;
 }
