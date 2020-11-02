@@ -1,44 +1,44 @@
 /* Cause all elements to be sized relative to their border box */
 html {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 *,
 *::before,
 *::after {
-    box-sizing: inherit;
+  box-sizing: inherit;
 }
 
 /* Elements with class 'width-wrap' set to max width of 960 px, centered, padded & bordered */
 .width-wrap {
-    max-width: 960px;
-    margin-left: auto;
-    margin-right: auto;
-    padding: 1em 2em 2em;
-    border: 1px solid rgba(0, 0, 0, 0.3);
-    border-top: none;
-    margin-bottom: 3em;
-    background-color: #cee4ee;
+  max-width: 960px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 1em 2em 2em;
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  border-top: none;
+  margin-bottom: 3em;
+  background-color: #cee4ee;
 }
 
 /* Styling for horizontal rule in footer */
 footer hr {
-    width: 50%;
-    min-width: 300px;
-    max-width: 890px;
-    margin-top: 3em;
-    margin-bottom: 2em;
-    border: none;
-    border-bottom: 3px dotted #0e0e45;
+  min-width: 300px;
+  max-width: 890px;
+  width: 50%;
+  margin-top: 3em;
+  margin-bottom: 2em;
+  border: none;
+  border-bottom: 3px dotted #0e0e45;
 }
 
 /* Add colons to terms in a definition list */
 dl dt::after {
-    content: ":";
+  content: ":";
 }
 
 /* sets background colour */
 body {
-    background-color: #581e46;
+  background-color: #581e46;
 }
 
 /* sets new default colours for text, headings and hyperlinks */
@@ -46,87 +46,87 @@ p,
 h1,
 h2,
 h3 {
-    color: #3b3b3b
+  color: #3b3b3b;
 }
 
 a {
-    color: #0e0e45;
+  color: #0e0e45;
 }
 
 header nav a {
-    color: #005500;
-    border-top: 4px solid #00550000;
-    display: inline-block;
-    padding-top: 1em;
-    padding-bottom: 0.5em;
+  color: #005500;
+  border-top: 4px solid #00550000;
+  display: inline-block;
+  padding-top: 1em;
+  padding-bottom: 0.5em;
 }
 
 header nav a:hover {
-    border-top: 4px solid #005500;
-} 
+  border-top: 4px solid #005500;
+}
 
 ::selection {
-    background-color: #84bbd4
+  background-color: #84bbd4;
 }
 
 /* styling the site header */
 header {
-    border-top: 4px solid rgba(0, 0, 0, 0.1);
-    margin-left: -2em;
-    margin-right: -2em;
+  border-top: 4px solid rgba(0, 0, 0, 0.1);
+  margin-left: -2em;
+  margin-right: -2em;
 }
 
 header nav {
-    border-bottom: 1px dotted rgba(0, 0, 0, 0.3);
-    margin-left: 2em;
-    margin-right: 2em;
+  border-bottom: 1px dotted rgba(0, 0, 0, 0.3);
+  margin-left: 2em;
+  margin-right: 2em;
 }
 
 header nav ul {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
 header li {
-    display: inline;
-    padding-right: 1em;
-    padding-left: 1em;
+  display: inline;
+  padding-right: 1em;
+  padding-left: 1em;
 }
 
 /* styling the table */
-tr>* {
-    padding: 0.3em 1em;
-    background-color: rgba(0, 0, 0, 0.05);
+tr > * {
+  padding: 0.3em 1em;
+  background-color: rgba(0, 0, 0, 0.05);
 }
 
-tbody>tr:nth-child(even)>td {
-    background-color: rgba(0, 0, 0, 0.15);
+tbody > tr:nth-child(even) > td {
+  background-color: rgba(0, 0, 0, 0.15);
 }
 
 thead,
 tfoot,
-tbody>tr>th {
-    background-color: rgba(0, 0, 0, 0.2);
+tbody > tr > th {
+  background-color: rgba(0, 0, 0, 0.2);
 }
 
 /* styling the form */
 
 label {
-    display: block;
+  display: block;
 }
 
-input+label {
-    display: initial;
+input + label {
+  display: initial;
 }
 
 [type="submit"] {
-    border: none;
-    padding: 1em 3em;
-    background-color: #0e0e45;
-    color: ivory;
+  border: none;
+  padding: 1em 3em;
+  background-color: #0e0e45;
+  color: ivory;
 }
 
 input:invalid,
 textarea:invalid {
-    background-color: #e2373d80;
+  background-color: #e2373d50;
 }
