@@ -92,3 +92,19 @@ header li {
     padding-right: 1em;
     padding-left: 1em;
 }
+
+/* styling the table */
+tr>* {
+    padding: 0.3em 1em;
+    background-color: rgba(0, 0, 0, 0.05);
+}
+
+tbody>tr:nth-child(even)>td {
+    background-color: rgba(0, 0, 0, 0.15);
+}
+
+thead,
+tfoot,
+tbody>tr>th {
+    background-color: rgba(0, 0, 0, 0.2);
+}
