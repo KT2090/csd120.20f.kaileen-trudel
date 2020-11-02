@@ -108,3 +108,25 @@ tfoot,
 tbody>tr>th {
     background-color: rgba(0, 0, 0, 0.2);
 }
+
+/* styling the form */
+
+label {
+    display: block;
+}
+
+input+label {
+    display: initial;
+}
+
+[type="submit"] {
+    border: none;
+    padding: 1em 3em;
+    background-color: #0e0e45;
+    color: ivory;
+}
+
+input:invalid,
+textarea:invalid {
+    background-color: #e2373d80;
+}
