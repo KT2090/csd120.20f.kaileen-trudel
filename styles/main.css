@@ -1,0 +1,35 @@
+/* Cause all elements to be sized relative to their border box */
+html {
+    box-sizing: border-box;
+}
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+/* Elements with class 'width-wrap' set to max width of 960 px, centered, padded & bordered */
+.width-wrap {
+    max-width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1em 2em 2em;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    border-top: none;
+    margin-bottom: 3em;
+}
+
+/* Styling for horizontal rule in footer */
+footer hr {
+    width: 50%;
+    min-width: 300px;
+    max-width: 890px;
+    margin-top: 3em;
+    margin-bottom: 2em;
+    border-bottom: 3px dotted steelblue;
+}
+
+/* Add colons to terms in a definition list */
+dl dt::after {
+    content: ":";
+}
