@@ -13,18 +13,19 @@ html {
   max-width: 960px;
   margin-left: auto;
   margin-right: auto;
-  padding: 1em 2em 2em;
+  padding: 0 2em 2em;
   border: 1px solid rgba(0, 0, 0, 0.3);
   border-top: none;
   margin-bottom: 3em;
   background-color: #cee4ee;
+  color: rgba(0,0,0,0.9);
 }
 
 /* Styling for horizontal rule in footer */
 footer hr {
   min-width: 300px;
   max-width: 890px;
-  width: 50%;
+  width: 50vw;
   margin-top: 3em;
   margin-bottom: 2em;
   border: none;
@@ -59,6 +60,7 @@ header nav a {
   display: inline-block;
   padding-top: 1em;
   padding-bottom: 0.5em;
+  margin: -4px 1em 0;
 }
 
 header nav a:hover {
@@ -103,8 +105,9 @@ tbody > tr:nth-child(even) > td {
   background-color: rgba(0, 0, 0, 0.15);
 }
 
-thead,
-tfoot,
+thead th,
+tfoot th,
+tfoot td,
 tbody > tr > th {
   background-color: rgba(0, 0, 0, 0.2);
 }
