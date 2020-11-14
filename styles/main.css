@@ -40,6 +40,8 @@ dl dt::after {
 /* sets background colour */
 body {
   background-color: #581e46;
+  font-family: 'Lato', sans-serif;
+  line-height: 1.3;
 }
 
 /* sets new default colours for text, headings and hyperlinks */
@@ -52,6 +54,12 @@ h3 {
 
 a {
   color: #0e0e45;
+  text-decoration: none;
+
+}
+
+a:hover {
+  text-decoration: underline;
 }
 
 header nav a {
@@ -132,4 +140,27 @@ input + label {
 input:invalid,
 textarea:invalid {
   background-color: #e2373d50;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Lustria', serif;
+}
+
+ol {
+  list-style-type: upper-roman;
+}
+
+iframe {
+  border-top-right-radius: 2em;
+  border-bottom-left-radius: 2em;
+}
+
+fieldset ul {
+  padding: 0;
+  list-style-type: none;
 }
