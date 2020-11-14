@@ -45,11 +45,27 @@ body {
 }
 
 /* sets new default colours for text, headings and hyperlinks */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Lustria', serif;
+}
+
 p,
 h1,
 h2,
 h3 {
   color: #3b3b3b;
+}
+
+h1 {
+  background: rgb(88,30,70);
+  background: linear-gradient(325deg, rgba(88,30,70,1) 9%, rgba(12,88,121,1) 100%);
+  background-clip: text;
+  color: #3b3b3b00;
 }
 
 a {
@@ -146,14 +162,7 @@ textarea:invalid {
   background-color: #e2373d50;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  font-family: 'Lustria', serif;
-}
+
 
 ol {
   list-style-type: upper-roman;
