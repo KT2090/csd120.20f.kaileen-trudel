@@ -69,10 +69,14 @@ header nav a {
   padding-top: 1em;
   padding-bottom: 0.5em;
   margin: -4px 1em 0;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 4px;
 }
 
 header nav a:hover {
   border-top: 4px solid #005500;
+  text-decoration: none;
 }
 
 ::selection {
