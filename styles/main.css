@@ -21,16 +21,7 @@ html {
   color: rgba(0,0,0,0.9);
 }
 
-/* Styling for horizontal rule in footer */
-footer hr {
-  min-width: 300px;
-  max-width: 890px;
-  width: 50vw;
-  margin-top: 3em;
-  margin-bottom: 2em;
-  border: none;
-  border-bottom: 3px dotted #0e0e45;
-}
+
 
 /* Add colons to terms in a definition list */
 dl dt::after {
@@ -183,6 +174,29 @@ textarea:invalid {
   background-color: #e2373d50;
 }
 
+/* Styling for horizontal rule in footer */
+footer {
+  font-size: 75%;
+  text-align: center;
+}
+
+footer hr {
+  min-width: 300px;
+  max-width: 890px;
+  width: 50vw;
+  margin-top: 3em;
+  margin-bottom: 2em;
+  border: none;
+  border-bottom: 3px dotted #0e0e45;
+}
+
+footer + a {
+  text-shadow: 2px 4px 9px;
+}
+
+footer + a:hover {
+  text-decoration: none;
+}
 
 
 ol {
