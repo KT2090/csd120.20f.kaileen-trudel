@@ -124,6 +124,19 @@ header li {
 }
 
 /* styling the table */
+
+div[class="bio"] {
+  column-count: 3;
+  column-gap: 2em;
+}
+
+table {
+  column-span: all;
+  margin-top: 1em;
+  border-collapse: collapse;
+  caption-side: bottom;
+}
+
 tr > * {
   padding: 0.3em 1em;
   background-color: rgba(0, 0, 0, 0.05);
@@ -140,6 +153,14 @@ tbody > tr > th {
   background-color: rgba(0, 0, 0, 0.2);
 }
 
+img {
+  max-width: 100%;
+}
+
+div > * > img {
+  padding: 2%;
+  box-shadow: 1px 3px 8px 2px rgba(0, 0, 0, 0.2);
+}
 /* styling the form */
 
 label {
