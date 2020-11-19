@@ -107,13 +107,11 @@ header nav ul {
 
 header li {
   display: inline;
-  padding-right: 1em;
-  padding-left: 1em;
 }
 
 /* styling the bio and table */
 
-div[class="bio"] {
+div.bio {
   column-count: 3;
   column-gap: 2em;
 }
@@ -146,8 +144,9 @@ img {
   max-width: 100%;
 }
 
-div[class="bio"] > * > img {
+div.bio > * > img {
   padding: 2%;
+  background-color: #fff;
   box-shadow: 1px 3px 8px 2px rgba(0, 0, 0, 0.2);
 }
 
