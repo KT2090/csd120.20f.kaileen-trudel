@@ -195,7 +195,36 @@ footer + a:hover {
   text-decoration: none;
 }
 
-/* misc styling */
+/* favourites tab styling */
+
+div.favourites {
+  display: flex;
+  flex-flow: row wrap;
+}
+
+div.favourites label+div {
+  display: none;
+}
+
+div.favourites input:checked+label+div {
+  display: block;
+  width: 100%;
+}
+
+input[type="radio"] {
+  display: none;
+}
+
+div.favourites label {
+  order: -1;
+}
+
+div.favourites input:checked+label {
+  background-color: #a4c8d8;
+  border: 1px solid black;
+}
+
+/* misc styling /*
 ol {
   list-style-type: upper-roman;
 }

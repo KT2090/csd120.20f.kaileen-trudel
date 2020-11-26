@@ -121,60 +121,103 @@
           </table>
         </div>
         <h2>My Favourite Things</h2>
-        <figure>
-          <a href="https://www.mlb.com/bluejays">
-            <img
-              src="images/logo.jpeg"
-              alt="The Toronto Blue Jays logo that links to the official MLB Blue Jays website."
-            />
-          </a>
-          <figcaption>The Toronto Blue Jays logo.</figcaption>
-        </figure>
-        <h3>Cheese</h3>
-        <ol>
-          <li>Old cheddar</li>
-          <li>Gouda</li>
-          <li>Dubliner</li>
-          <!-- Found me! -->
-        </ol>
-        <h3>Haiku</h3>
-        <p>
-          fire burns the night,<br />
-          without it are there shadows<br />
-          when the wind moves trees<br />
-          <cite
-            >by
-            <span class="author">unknown</span>
-          </cite>
-        </p>
-        <h3>Public Domain Audiobook</h3>
-        <p>
-          Below is an audio recording of chapter 1 of Mark Twain's Adventures of
-          Huckleberry Finn.
-        </p>
-        <audio controls>
-          <source
-            src="https://ia600203.us.archive.org/12/items/huckleberry_finn_0908_librivox/finn_01_twain_64kb.mp3"
-            type="audio/mpeg"
-          />
-          <p>
-            Your browser doesn't support mp3 audio. Here is a
-            <a
-              href="https://ia600203.us.archive.org/12/items/huckleberry_finn_0908_librivox/finn_01_twain_64kb.mp3"
-              >link to the audio</a
-            >instead.
-          </p>
-        </audio>
-        <h3>YouTube Video</h3>
-        <iframe
-          width="560"
-          height="315"
-          src="https://www.youtube.com/embed/NUKKzdVy0EI"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-          allowfullscreen
-          title="YouTube video of a campfire."
-        >
-        </iframe>
+        <div class="favourites">
+          <input
+            id="tab1"
+            type="radio"
+            name="radio_tab">
+          <label for="tab1">
+            <h3>TV Sports</h3>
+          </label>
+          <div>
+            <figure>
+              <a href="https://www.mlb.com/bluejays">
+                <img
+                  src="images/logo.jpeg"
+                  alt="The Toronto Blue Jays logo that links to the official MLB Blue Jays website."
+                />
+              </a>
+              <figcaption>The Toronto Blue Jays logo.</figcaption>
+            </figure>
+          </div>
+          <input
+            id="tab2"
+            type="radio"
+            name="radio_tab">
+          <label for="tab2">  
+            <h3>Cheese</h3>
+          </label>
+          <div>
+            <ol>
+              <li>Old cheddar</li>
+              <li>Gouda</li>
+              <li>Dubliner</li>
+              <!-- Found me! -->
+            </ol>
+          </div>
+          <input
+            id="tab3"
+            type="radio"
+            name="radio_tab">
+          <label for="tab3">
+            <h3>Haiku</h3>
+          </label>
+          <div>
+            <p>
+              fire burns the night,<br />
+              without it are there shadows<br />
+              when the wind moves trees<br />
+              <cite
+                >by
+                <span class="author">unknown</span>
+              </cite>
+            </p>
+          </div>
+          <input
+            id="tab4"
+            type="radio"
+            name="radio_tab">
+          <label for="tab4">
+            <h3>Public Domain Audiobook</h3>
+          </label>  
+          <div>
+            <p>
+              Below is an audio recording of chapter 1 of Mark Twain's Adventures of
+              Huckleberry Finn.
+            </p>
+            <audio controls>
+              <source
+                src="https://ia600203.us.archive.org/12/items/huckleberry_finn_0908_librivox/finn_01_twain_64kb.mp3"
+                type="audio/mpeg"
+              />
+              <p>
+                Your browser doesn't support mp3 audio. Here is a
+                <a
+                  href="https://ia600203.us.archive.org/12/items/huckleberry_finn_0908_librivox/finn_01_twain_64kb.mp3"
+                  >link to the audio</a
+                >instead.
+              </p>
+            </audio>
+          </div>
+          <input
+            id="tab5"
+            type="radio"
+            name="radio_tab">
+          <label for="tab5">
+            <h3>YouTube Video</h3>
+          </label>
+          <div>
+            <iframe
+              width="560"
+              height="315"
+              src="https://www.youtube.com/embed/NUKKzdVy0EI"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen
+              title="YouTube video of a campfire."
+              >
+            </iframe>
+          </div>
+        </div>
       </main>
       <footer>
         <hr />
