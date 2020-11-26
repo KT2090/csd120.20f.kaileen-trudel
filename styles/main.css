@@ -168,8 +168,6 @@ img.paperclip {
   right: -11px;
 }
 
-
-
 /* form styling */
 label {
   display: block;
@@ -213,6 +211,19 @@ footer + a {
 
 footer + a:hover {
   text-decoration: none;
+}
+
+/* back to top styling */
+
+body > div > a {
+  margin-left: -25px;
+  position: sticky;
+  bottom: 10px;
+  display: inline-block;
+}
+
+body > div > a:hover {
+  rotate: 45deg;
 }
 
 /* favourites tab styling */
