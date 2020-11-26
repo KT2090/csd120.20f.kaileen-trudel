@@ -150,6 +150,26 @@ div.bio > * > img {
   box-shadow: 1px 3px 8px 2px rgba(0, 0, 0, 0.2);
 }
 
+/*paperclip styling */
+div.bio > * > img.paperclip {
+  background-color: transparent;
+  box-shadow: none;
+  width: 20%;
+}
+
+div.bio a {
+  display: block;
+  position: relative;
+}
+
+img.paperclip {
+  position: absolute;
+  top: -11px;
+  right: -11px;
+}
+
+
+
 /* form styling */
 label {
   display: block;
@@ -250,7 +270,7 @@ div.gallery a.col-span-2 {
 div.gallery a:hover {
   scale: 1.1
 }
-]
+
 /* misc styling */
 ol {
   list-style-type: upper-roman;
