@@ -142,6 +142,38 @@ tbody > tr > th {
   background-color: rgba(0, 0, 0, 0.2);
 }
 
+@media screen and (max-width: 500px) {
+  thead,
+  tfoot,
+  th {
+    display: none
+  }
+
+  td {
+    display: block;
+    padding: 0 1rem 0;
+  }
+
+  table {
+    caption-side: top;
+  }
+
+  td:first-of-type {
+    padding-top: 0.3em;
+    font-weight: bold;
+  }
+
+  td:last-of-type {
+    padding-bottom: 0.3em;
+    font-style: italic;
+    font-size: 0.8em;
+  }
+
+  td:last-of-type:after {
+    content: " hrs/wk"
+  }
+}
+
 /*image styling */
 img {
   max-width: 100%;
