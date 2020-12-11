@@ -97,7 +97,7 @@ header nav a:hover {
     height: 0;
     overflow: hidden;
   }
-  
+
   header nav a {
     padding-top: 0.5em;
     border-top: none;
@@ -131,7 +131,6 @@ header ul {
   display: flex;
   justify-content: center;
 }
-
 
 /* styling the bio and table */
 
@@ -167,7 +166,7 @@ tbody > tr > th {
   thead,
   tfoot,
   th {
-    display: none
+    display: none;
   }
 
   td {
@@ -191,7 +190,7 @@ tbody > tr > th {
   }
 
   td:last-of-type:after {
-    content: " hrs/wk"
+    content: " hrs/wk";
   }
 }
 
@@ -408,7 +407,7 @@ dl dt::after {
 /* sandwich icon styling */
 .sandwich-icon,
 .sandwich-icon + input {
-  display: none
+  display: none;
 }
 
 .sandwich-icon {
@@ -416,7 +415,7 @@ dl dt::after {
 }
 
 .sandwich-icon::before,
-.sandwich-icon::after{
+.sandwich-icon::after {
   content: "";
   display: block;
   width: 40px;
@@ -439,7 +438,7 @@ dl dt::after {
 @media screen and (max-width: 350px) {
   .sandwich-icon {
     display: block;
-    width: 40px; 
+    width: 40px;
     height: 25px;
     border-top: 5px solid #005500;
     margin: 1em auto;
@@ -448,7 +447,4 @@ dl dt::after {
     height: 99px;
     transition: height 200ms;
   }
-
-
-
 }
