@@ -90,6 +90,23 @@ header nav a:hover {
   background-color: #84bbd4;
 }
 
+@media screen and (max-width: 350px) {
+  nav ul {
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  header nav a {
+    padding-top: 0.5em;
+    border-top: none;
+  }
+
+  header nav a:hover {
+    text-decoration: underline;
+    border-top: none;
+  }
+}
+
 /* styling the site header */
 header {
   border-top: 4px solid rgba(0, 0, 0, 0.1);
@@ -316,6 +333,16 @@ div.favourites label span {
   font-size: 1.17em;
   margin: 1em;
   font-weight: bold;
+}
+
+@media screen and (max-width: 800px) {
+  div.favourites {
+    flex-direction: column;
+  }
+
+  div.favourites label {
+    order: 0;
+  }
 }
 
 /* gallery styling */
