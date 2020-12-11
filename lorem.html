@@ -32,6 +32,23 @@
       footer {
         clear: both;
       }
+
+      .loremimg { 
+        float: right;
+      }
+
+      .loremimgleft { 
+        float: left;
+      }
+
+      @media screen and (max-width: 500px) {
+        .loremimg,
+        .loremimgleft {
+          float: none;
+          display:block;
+        }
+      }
+
     </style>
   </head>
   <body>
@@ -62,7 +79,7 @@
           sweet rich strong grinder chicory eu steamed cinnamon french press
           macchiato mocha.
         </p>
-        <p style="float: right">
+        <p class="loremimg">
           <img
             src="https://loremflickr.com/310/420/coffee"
             alt="Randomly generated coffee picture"
@@ -100,7 +117,7 @@
           monsieur melted cheese fondue dolcelatte when the cheese comes out
           everybody's happy. Melted cheese cheddar cheese and wine feta.
         </p>
-        <p style="float: left">
+        <p class="loremimgleft">
           <img
             src="https://loremflickr.com/280/240/cheese"
             alt="Randomly generated cheese picture"
