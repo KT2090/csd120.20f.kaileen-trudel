@@ -96,6 +96,7 @@ header nav a:hover {
     align-items: center;
     height: 0;
     overflow: hidden;
+    transition: height 200ms;
   }
 
   header nav a {
@@ -279,7 +280,7 @@ body > div > a {
 }
 
 body > div > a:hover {
-  rotate: 45deg;
+  transform: rotate(45deg);
 }
 
 /* favourites tab styling */
@@ -445,6 +446,5 @@ dl dt::after {
   }
   .sandwich-icon + input:checked + ul {
     height: 99px;
-    transition: height 200ms;
   }
 }
